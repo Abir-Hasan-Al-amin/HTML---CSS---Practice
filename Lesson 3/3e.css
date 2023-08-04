@@ -1,0 +1,34 @@
+.company{
+height: 40px;
+width: 240px;
+border-radius: 20px;
+margin-right: 10px;
+font-size: 15px;
+font-weight: bold;
+background-color: rgb(10, 102,194);
+border-style: none;
+color: white;
+cursor: pointer;
+transition: background-color .15s;
+}
+.company:hover{
+    background-color: rgb(2, 70, 138);
+}
+.save{
+height: 40px;
+width: 80px;
+border-radius: 20px;
+font-size: 15px;
+font-weight: bold;
+background-color: white;
+color: rgb(10, 102,194);
+border-color: rgb(10, 102,194);
+border-width: 1px;
+border-style: solid;
+cursor: pointer;
+transition: background-color 0.15s, border-width .15s;
+}
+.save:hover{
+    background-color: rgb(226, 240, 254);
+    border-width: 2px;
+}
