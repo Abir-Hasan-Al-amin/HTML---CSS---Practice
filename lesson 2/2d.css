@@ -1,0 +1,25 @@
+.start{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 6px;
+}
+.down{
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    color: rgb(108,117,125);
+    border-color:  rgb(108,117,125);
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: bold;
+}
