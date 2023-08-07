@@ -1,0 +1,12 @@
+button{
+    padding: 2px 4px;
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    transition: padding  .5s;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    padding: 10px 18px;
+}
