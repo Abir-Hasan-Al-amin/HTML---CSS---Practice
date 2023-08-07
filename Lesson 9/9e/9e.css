@@ -1,0 +1,29 @@
+img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+    vertical-align: middle;
+}
+input{
+    font-size: 12px;
+    margin-left: 6px;
+    border: none;
+    vertical-align: middle;
+    width: 210px;
+}
+button{
+    border:none;
+    font-size: 12px;
+    border-radius: 30px;
+    background-color: #1DA1F2;
+    color: white;
+}
+div{
+    width: 300px;
+    padding: 12px;
+    display: inline-block;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
