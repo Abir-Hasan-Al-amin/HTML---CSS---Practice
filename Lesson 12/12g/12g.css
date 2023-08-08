@@ -1,0 +1,45 @@
+.profile-img{
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: calc(100% - 10px) ;
+    height: calc(100% - 10px);
+}
+.profile{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.profile-info{
+    width: 180px;
+    margin-left: 10px;
+}
+.pro-name{
+    font-weight: bold;
+}
+.inner-info{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0, 0, .25);
+    margin-bottom: 20px;
+}
+button{
+    font-size: 22px;
+    border: none;
+    background-color: rgb(7, 167, 236);
+    border-radius: 20px;
+    color: white;
+    padding: 5px 10px;
+}
