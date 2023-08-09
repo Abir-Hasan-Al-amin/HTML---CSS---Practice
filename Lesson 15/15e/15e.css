@@ -1,0 +1,51 @@
+.product{
+    width: 300px;
+    height: 300px;
+    background-color: #C5C6C8;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+.img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+}
+.overlay{
+    background-color: rgba(255, 255, 255, 0.732);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.buttun{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0;
+}
+button{
+    padding: 8px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+}
+.discount{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 0;
+    padding: 4px;
+    top: 3px;
+}
