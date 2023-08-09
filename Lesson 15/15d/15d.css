@@ -1,0 +1,31 @@
+.contain{
+    background-color: gray;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 320px;
+    height: 180px;
+}
+.close{
+    top: -18px;
+    left: -18px;
+    font-size: 17px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: black;
+    color: white;
+}
+.time{
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    color: white;
+    background-color: black;
+}
